@@ -10,4 +10,6 @@ I also added an eventlistener to add a value to the input value when you click a
 <img width="541" alt="Screen Shot 2023-04-28 at 2 12 05 PM" src="https://user-images.githubusercontent.com/127148272/235222531-8fc7e866-19d3-4a8e-85f2-eae794f543a3.png">
 
 
+Second update:
 
+  Still did add any css. I will once I am finsihed or get really stuck on something. This update I got it to display an output of the 2 numbers you picked. The buttons only work for the first input and you need to click onto the input element to enter a number which I need to fix. I also added and messed around for the first time ever with arrays. I have the first input and second input set to an empty array. This array will take both of the value in both of the input elements and will do the math. Having a hard time trying to make it do the other operations like - * by clicking the button. Once I get that working I will be very close to finsihing the project.
