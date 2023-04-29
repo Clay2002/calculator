@@ -41,6 +41,8 @@ document.querySelector("#num-9").addEventListener('click', function(){ input1.va
 
 
 
+
+
 function answer (){
 
 const outcome = document.getElementById("display");
@@ -130,3 +132,4 @@ function diviOperation(){
 
 
 calculat();
+numInputOne();
