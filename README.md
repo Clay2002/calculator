@@ -17,3 +17,9 @@ Second update:
 Third update:
 
   Got everything working. I had to think outside to box and made an if statment connected with a onlick button which would change if you click the operater. This would do the math by the inner html. Also started to add some css grid. Ive been stuggling to put 2 inputs on the sameline for the pass 20 mins. The css is almost done and all I need to do after that is fix somethings. I need to add and fix a lot of things but it shouldnt take me more than 2 hours to do so. After that the porject will be done and I will move on with my javascript learning and starting another project!
+  
+ Fourth update: 
+ <img width="447" alt="Screen Shot 2023-04-29 at 6 24 45 PM" src="https://user-images.githubusercontent.com/127148272/235326545-97eb075c-6214-4190-8af6-74e8022dcfb0.png">
+
+Im done!
+ 
