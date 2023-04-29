@@ -9,7 +9,7 @@ const outcome = document.getElementById("display");
 function clearInput(){
 
     const input1 = document.getElementById("userinput-1");
-    const input2 = document.getElementById("userinput-2");
+    const input2 = document.getElementById("input-2");
 
     if(input1.value !=""){
         input1.value = "";
@@ -68,42 +68,64 @@ items.push(boxvalue);
 items.push(boxvalue2);  
 
 
-
-
-
 console.log(items);
 
 const outcome = document.getElementById("display");
 
-outcome.innerHTML =" outcome:"+ items;
+outcome.innerHTML ="outcome:" + items;
 
 
-const add1 = items[0] + items[1];
-const sub1 = (items[0] - items[1]);
-const div1 = (items[0] / items[1]);
-const multi1 = (items[0] * items[1]);
 
 
+if (operation.innerText == "*"){
 const multiItems = (items[0] * items[1]);
 
 console.log (multiItems);
+outcome.innerHTML =" outcome:"+ multiItems;
+}
+if (operation.innerText == "+"){
+    const addItems = (items[0] + items[1]);
+    
+    console.log (addItems);
+    outcome.innerHTML =" outcome:"+ addItems;
+    }
+    if (operation.innerText == "-"){
+        const subItems = (items[0] - items[1]);
+        
+        console.log (subItems);
+        outcome.innerHTML =" outcome:"+ subItems;
+        }
+        if (operation.innerText == "/"){
+            const diviItems = (items[0] / items[1]);
+            
+            console.log (diviItems);
+            outcome.innerHTML =" outcome:"+ diviItems;
+            }
 
 }
 
 
-function add() {
 
-    console.log(items[0] + items[1]);
+function addOperation(){
 
-
-
-    console.log("hello");
-
-
-
+    let operation = document.getElementById("operation");
+    operation.innerText = "+";
 }
+function subOperation(){
 
-add();
+    let operation = document.getElementById("operation");
+    operation.innerText = "-";
+}
+function multiOperation(){
+
+    let operation = document.getElementById("operation");
+    operation.innerText = "*";
+}
+function diviOperation(){
+
+    let operation = document.getElementById("operation");
+    operation.innerText = "/";
+}
 
 
 
